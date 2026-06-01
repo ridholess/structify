@@ -1,0 +1,44 @@
+name: structify
+description: "Structify"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^2.3.0
+  lucide_icons_flutter: ^3.1.14+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: VisbyRoundCF
+      fonts:
+        - asset: assets/fonts/VisbyRoundCF-ExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/VisbyRoundCF-Light.otf
+          weight: 300
+        - asset: assets/fonts/VisbyRoundCF-Regular.otf
+          weight: 400
+        - asset: assets/fonts/VisbyRoundCF-Medium.otf
+          weight: 500
+        - asset: assets/fonts/VisbyRoundCF-DemiBold.otf
+          weight: 600
+        - asset: assets/fonts/VisbyRoundCF-Bold.otf
+          weight: 700
+        - asset: assets/fonts/VisbyRoundCF-ExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/VisbyRoundCF-Heavy.otf
+          weight: 900
