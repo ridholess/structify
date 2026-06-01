@@ -31,7 +31,9 @@ flutter run
 
 Jika aplikasi berjalan dengan lancar, kamu akan melihat teks **"Selamat Datang di Structify"** di tengah layar sebagai tanda bahwa setup berhasil.
 
-> **Catatan:** Pastikan Flutter SDK sudah terinstall di perangkatmu. Cek dengan `flutter doctor` sebelum menjalankan langkah di atas.
+> **Catatan:**
+> - Pastikan Flutter SDK sudah terinstall di perangkatmu. Cek dengan `flutter doctor` sebelum menjalankan langkah di atas.
+> - Pastikan juga mengganti PRD *(Project Requirements Document)* di `docs/brief.md` dan juga AI-Guideline untuk Claude di `CLAUDE.md`.
 
 ---
 
